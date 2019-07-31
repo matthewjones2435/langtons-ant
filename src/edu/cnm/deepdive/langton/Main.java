@@ -39,7 +39,7 @@ public class Main extends Application {
 
   @Override
   public void stop() throws Exception {
-    // TODO stop any controllers.
+    controller.stop();
     super.stop();
   }
 }
