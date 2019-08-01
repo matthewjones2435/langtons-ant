@@ -57,7 +57,7 @@
     showTickLabels="false"
     blockIncrement="1"
     GridPane.rowIndex="2"
-    GridPane.columnIndex="0"
+    GridPane.columnSpan="3"
     GridPane.halignment="CENTER"
     GridPane.valignment="CENTER"
     value="1"/>
