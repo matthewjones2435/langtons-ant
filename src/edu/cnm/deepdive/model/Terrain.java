@@ -20,7 +20,7 @@ public class Terrain {
       int color = Color.HSBtoRGB(i / (float) populationSize, 1, 1);
       ants[i] = new Ant(color, row, column, orientation);
     }
-
+    tick();
   }
 
   public void tick() {
